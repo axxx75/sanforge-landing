@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SANForge | Enterprise SAN Intelligence</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0b1220;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+section { padding: 90px 0; }
+
+h1 { font-size: 3.2rem; font-weight: 800; }
+h2 { font-size: 2rem; margin-bottom: 20px; }
+h3 { font-size: 1.2rem; margin-bottom: 10px; }
+
+.hero {
+  background: radial-gradient(circle at 30% 20%, #1e293b, #0b1220 70%);
+  text-align: center;
+}
+
+.hero h1 {
+  background: linear-gradient(90deg, #38bdf8, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  max-width: 750px;
+  margin: 25px auto 40px;
+  font-size: 1.15rem;
+  opacity: 0.85;
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #38bdf8, #6366f1);
+  color: white;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(56,189,248,0.35);
+}
+
+.btn-outline {
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+  margin-left: 15px;
+}
+
+.btn-outline:hover {
+  background: rgba(56,189,248,0.1);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 40px;
+}
+
+.card {
+  background: #111827;
+  padding: 40px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,0.06);
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  border-color: #38bdf8;
+  transform: translateY(-5px);
+}
+
+.architecture {
+  text-align: center;
+}
+
+.arch-flow {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.arch-box {
+  background: #1e293b;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.highlight {
+  color: #38bdf8;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  opacity: 0.5;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+  <div class="container">
+    <h1>SANForge Ecosystem</h1>
+    <p>
+      Enterprise-grade Fibre Channel discovery and multi-tenant aggregation platform.
+      Delivering centralized visibility, operational intelligence and governance across distributed SAN infrastructures.
+    </p>
+
+    <a href="#access" class="btn btn-primary">Request Access</a>
+    <a href="#architecture" class="btn btn-outline">View Architecture</a>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2>Executive Value Proposition</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Operational Visibility</h3>
+        <p>
+          Centralized discovery of Fibre Channel environments across tenants.
+          Unified insight reduces blind spots and accelerates decision making.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Governance & Segregation</h3>
+        <p>
+          Multi-tenant architecture ensures strict data isolation.
+          Designed to align with enterprise security and compliance requirements.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Scalable Architecture</h3>
+        <p>
+          Modular components enable horizontal growth.
+          From pilot deployments to enterprise-wide rollouts.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="architecture" class="architecture">
+  <div class="container">
+    <h2>Platform Architecture</h2>
+    <p>Edge collection. Secure ingestion. Centralized intelligence.</p>
+
+    <div class="arch-flow">
+      <div class="arch-box">SANForge Agent</div>
+      <div class="arch-box">Secure API Collector</div>
+      <div class="arch-box">SANForge HQ</div>
+    </div>
+  </div>
+</section>
+
+<section id="access">
+  <div class="container" style="text-align:center;">
+    <h2>Private Beta Access</h2>
+    <p>
+      The SANForge ecosystem is currently in controlled private release.
+      Repository access is granted upon evaluation.
+    </p>
+
+    <div style="margin-top:30px;">
+      <a href="mailto:your@email.com" class="btn btn-primary">
+        Request Repository Access
+      </a>
+    </div>
+
+    <div style="margin-top:40px; font-size:0.9rem; opacity:0.6;">
+      GitHub repositories are private and accessible by invitation only.
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 SANForge Ecosystem • Enterprise SAN Intelligence Platform
+</footer>
+
+</body>
+</html>
